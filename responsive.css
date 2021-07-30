@@ -1,0 +1,36 @@
+@media all and (max-width: 1024px){
+    .rectangle-white {
+        float: none;
+        text-align: center;
+    }
+    .rectangle-orange {
+        float: none;
+        padding: 20px 50px;
+    }
+    .rectangle-orange p {
+        font-size: 18px;
+        margin-bottom: 25px;
+    }
+
+    .rectangle-orange ul {
+        font-size: 16pX;
+      }
+    .rectangle-orange li {
+        margin-bottom: 15px;
+      }
+    .footer-bottom {
+        font-size: 12px;
+      }
+}
+@media all and (max-width: 670px){
+    .item{
+        width: 100%;
+    }
+    .rectangle-orange li {
+        float: none;
+        width: 100%;
+      }
+    .rectangle-orange {
+        text-align: center;
+    }
+}
